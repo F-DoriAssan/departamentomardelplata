@@ -1,8 +1,4 @@
-/// <reference types="next" />
-/// <reference types="next/image-types/global" />
 
-// NOTE: This file should not be edited
-// see https://nextjs.org/docs/basic-features/typescript for more information.
 POSTGRES_URL="postgres://default:wy7ofJ1sbQhF@ep-aged-sky-a46gw881-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
 POSTGRES_PRISMA_URL="postgres://default:wy7ofJ1sbQhF@ep-aged-sky-a46gw881-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require&pgbouncer=true&connect_timeout=15"
 POSTGRES_URL_NO_SSL="postgres://default:wy7ofJ1sbQhF@ep-aged-sky-a46gw881-pooler.us-east-1.aws.neon.tech:5432/verceldb"
