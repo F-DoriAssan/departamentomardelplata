@@ -25,7 +25,7 @@
 }
   },
   "include": [
-    ".env.d.ts",
+    ".env.local.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
