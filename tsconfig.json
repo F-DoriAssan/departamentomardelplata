@@ -31,6 +31,6 @@
     ".next/types/**/*.ts",
     "app/[locale]/lib/placeholder-data.js",
     "scripts/seed.js"
-  ],
+, "app/[locale]/page.jsx", "app/[locale]/page.jsx"  ],
   "exclude": ["node_modules"]
 }
