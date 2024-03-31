@@ -1,13 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
+    "build": "i18nexus pull && next build",
+    "dev": "i18nexus pull && next dev",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "start": "next start",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
-
+    "start": "i18nexus pull && next start",
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
@@ -17,11 +17,17 @@
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
     "clsx": "^2.0.0",
+    "i18next": "^23.10.1",
+    "i18next-browser-languagedetector": "^7.2.1",
+    "i18next-http-backend": "^2.5.0",
+    "i18next-resources-to-backend": "^1.2.0",
     "next": "^14.0.2",
+    "next-i18n-router": "^5.4.0",
     "notenv": "^2.0.3",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-i18next": "^14.1.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2",
     "vercel": "^33.6.1",
@@ -37,6 +43,7 @@
     "eslint": "^8.52.0",
     "eslint-config-next": "^14.0.0",
     "eslint-config-prettier": "9.0.0",
+    "i18nexus-cli": "^3.3.1",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "0.5.4"
   },
