@@ -1,3 +1,5 @@
 {
-  "/[locale]/dashboard/page": "app/[locale]/dashboard/page.js"
+  "/[locale]/dashboard/(overview)/page": "app/[locale]/dashboard/(overview)/page.js",
+  "/[locale]/dashboard/invoices/page": "app/[locale]/dashboard/invoices/page.js",
+  "/[locale]/dashboard/customers/page": "app/[locale]/dashboard/customers/page.js"
 }
