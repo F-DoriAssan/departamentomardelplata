@@ -1,5 +1,10 @@
 {
   "pages": {
+    "/[locale]/dashboard/(overview)/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/(overview)/loading.js"
+    ],
     "/[locale]/dashboard/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -10,11 +15,6 @@
       "static/chunks/main-app.js",
       "static/css/app/[locale]/layout.css",
       "static/chunks/app/[locale]/layout.js"
-    ],
-    "/[locale]/dashboard/(overview)/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/dashboard/(overview)/loading.js"
     ],
     "/[locale]/dashboard/(overview)/page": [
       "static/chunks/webpack.js",
