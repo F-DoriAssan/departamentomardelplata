@@ -1,5 +1,26 @@
 {
-  "node": {},
+  "node": {
+    "82520d5e9461e3241a5fce219b0e506d7f9ab32b": {
+      "workers": {
+        "app/[locale]/dashboard/invoices/create/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-esthetic%2Fapp%2F%5Blocale%5D%2Flib%2Factions.ts%22%2C%5B%22updateInvoice%22%2C%22createInvoice%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/dashboard/invoices/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-esthetic%2Fapp%2F%5Blocale%5D%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%2C%22updateInvoice%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[locale]/dashboard/invoices/create/page": "rsc",
+        "app/[locale]/dashboard/invoices/[id]/edit/page": "action-browser"
+      }
+    },
+    "95a8eac4dff4e8cfff2cb7d24e1885e91ee5f7ad": {
+      "workers": {
+        "app/[locale]/dashboard/invoices/create/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-esthetic%2Fapp%2F%5Blocale%5D%2Flib%2Factions.ts%22%2C%5B%22updateInvoice%22%2C%22createInvoice%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/dashboard/invoices/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-esthetic%2Fapp%2F%5Blocale%5D%2Flib%2Factions.ts%22%2C%5B%22createInvoice%22%2C%22updateInvoice%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[locale]/dashboard/invoices/create/page": "rsc",
+        "app/[locale]/dashboard/invoices/[id]/edit/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "eM5xOIib3z5TV6SCQeK6Lw4f2rT3JSAbDe7PhvyDrH0="
+  "encryptionKey": "+FBdDBYj/asbf9CKym7slZgFwY5ZGtV8EeQiO1qla0M="
 }
