@@ -22,6 +22,7 @@
     "i18next-http-backend": "^2.5.0",
     "i18next-resources-to-backend": "^1.2.0",
     "next": "^14.0.2",
+    "next-auth": "^5.0.0-beta.16",
     "next-i18n-router": "^5.4.0",
     "notenv": "^2.0.3",
     "postcss": "8.4.31",

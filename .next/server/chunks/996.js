@@ -1,0 +1,1 @@
+"use strict";exports.id=996,exports.ids=[996],exports.modules={82996:s=>{s.exports=JSON.parse('{"tits":"Bem-vindo \xe0 Tecnologia."}')}};
