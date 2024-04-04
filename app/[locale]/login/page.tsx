@@ -1,6 +1,11 @@
+import { Metadata } from 'next';
+
 import LoginForm from '@/app/[locale]/ui/login-form';
 import TechnologyLogo from '@/app/[locale]/ui/technology-logo';
 
+export const metadata: Metadata = {
+  title: 'Login',
+};
 export default function LoginPage() {
   return (
     <main className="flex items-center justify-center md:h-screen">

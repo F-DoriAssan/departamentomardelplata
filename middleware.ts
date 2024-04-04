@@ -5,7 +5,6 @@ import { authConfig } from './auth.config';
 import i18nConfig from './i18nConfig';
 
 export default NextAuth(authConfig).auth;
- 
 
 
 export function middleware(request:any) {

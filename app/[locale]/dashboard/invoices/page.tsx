@@ -1,5 +1,7 @@
 import { Suspense } from 'react';
 
+import { Metadata } from 'next';
+
 import { fetchInvoicesPages } from '@/app/[locale]/lib/data';
 import { lusitana } from '@/app/[locale]/ui/fonts';
 import { CreateInvoice } from '@/app/[locale]/ui/invoices/buttons';
@@ -7,6 +9,10 @@ import Pagination from '@/app/[locale]/ui/invoices/pagination';
 import Table from '@/app/[locale]/ui/invoices/table';
 import Search from '@/app/[locale]/ui/search';
 import { InvoicesTableSkeleton } from '@/app/[locale]/ui/skeletons';
+
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
 
 export default async function Page({
   searchParams,

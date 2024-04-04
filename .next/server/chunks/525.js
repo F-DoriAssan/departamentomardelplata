@@ -1,1 +1,0 @@
-"use strict";exports.id=525,exports.ids=[525],exports.modules={61525:e=>{e.exports=JSON.parse('{"tits":"Welcome to Technology."}')}};

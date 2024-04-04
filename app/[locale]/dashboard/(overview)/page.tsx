@@ -1,5 +1,7 @@
 import { Suspense } from 'react';
 
+import { Metadata } from 'next';
+
 import CardWrapper from '@/app/[locale]/ui/dashboard/cards';
 import LatestInvoices from '@/app/[locale]/ui/dashboard/latest-invoices';
 import RevenueChart from '@/app/[locale]/ui/dashboard/revenue-chart';
@@ -9,6 +11,10 @@ import {
   LatestInvoicesSkeleton,
   RevenueChartSkeleton,
 } from '@/app/[locale]/ui/skeletons';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 
 export default async function Page() {
 
