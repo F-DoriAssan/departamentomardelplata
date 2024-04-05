@@ -1,20 +1,15 @@
 import { Metadata } from 'next';
 
 import LoginForm from '@/app/[locale]/ui/login-form';
-import TechnologyLogo from '@/app/[locale]/ui/technology-logo';
 
 export const metadata: Metadata = {
   title: 'Login',
 };
 export default function LoginPage() {
   return (
-    <main className="flex items-center justify-center md:h-screen">
-      <div className="relative mx-auto flex w-full max-w-[400px] flex-col space-y-2.5 p-4 md:-mt-32">
-        <div className="flex h-20 w-full items-end rounded-lg bg-blue-500 p-3 md:h-36">
-          <div className="w-32 text-white md:w-36">
-            <TechnologyLogo />
-          </div>
-        </div>
+    <main className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+      <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+      
         <LoginForm />
       </div>
     </main>

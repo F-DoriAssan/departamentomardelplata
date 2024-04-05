@@ -1,30 +1,38 @@
 {
   "node": {
-    "e7c79e6347edba3725a9287343f498e83006fc28": {
+    "76f06693cc5431b9d872cff28eb68492d5c61cef": {
       "workers": {
-        "app/[locale]/dashboard/(overview)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-technology-pages%2Fapp%2F%5Blocale%5D%2Fui%2Fdashboard%2Fsidenav.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
+        "app/[locale]/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-technology-pages%2Fapp%2F%5Blocale%5D%2Flib%2Factions.ts%22%2C%5B%22authenticate%22%2C%22createInvoice%22%2C%22updateInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/dashboard/(overview)/page": "rsc"
+        "app/[locale]/login/page": "action-browser"
       }
     },
-    "aa4fae4681f700afa9f939ec70014be14bf95dd4": {
+    "f51219cdecd286a219f358c23e4f01044f9ac6f9": {
       "workers": {
-        "app/[locale]/homepage/(overview)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-technology-pages%2Fapp%2F%5Blocale%5D%2Fui%2Fhomepage%2Fnavbar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
+        "app/[locale]/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-technology-pages%2Fapp%2F%5Blocale%5D%2Flib%2Factions.ts%22%2C%5B%22authenticate%22%2C%22createInvoice%22%2C%22updateInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/homepage/(overview)/page": "rsc"
+        "app/[locale]/login/page": "action-browser"
       }
     },
-    "9a8b304376a2f9bcdbe97b43d3c6d8a7fb62042d": {
+    "7bd9d2a8f707d938e3c4088dbe0bb4f0bbb9b50d": {
       "workers": {
-        "app/[locale]/homepage/(overview)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-technology-pages%2Fapp%2F%5Blocale%5D%2Fui%2Fhomepage%2Fnavbar.tsx%22%2C%5B%22%24%24ACTION_1%22%5D%5D%5D&__client_imported__=!"
+        "app/[locale]/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-technology-pages%2Fapp%2F%5Blocale%5D%2Flib%2Factions.ts%22%2C%5B%22authenticate%22%2C%22createInvoice%22%2C%22updateInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/homepage/(overview)/page": "rsc"
+        "app/[locale]/login/page": "action-browser"
+      }
+    },
+    "0b7249c2e194bf146deedc6e93dda813a27349ef": {
+      "workers": {
+        "app/[locale]/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fdoriass%2FP%C3%BAblico%2Fnext-course%2Fnextjs-technology-pages%2Fapp%2F%5Blocale%5D%2Flib%2Factions.ts%22%2C%5B%22authenticate%22%2C%22createInvoice%22%2C%22updateInvoice%22%2C%22deleteInvoice%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[locale]/login/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "hSxXTMaswK5+h0rT0GatD7+0arLQp4XP67ENKipdkLE="
+  "encryptionKey": "oy1Fc89qp/sQ/a9cYc8492aNf9K6nUGKa52zsXWZLKA="
 }
