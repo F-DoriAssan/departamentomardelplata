@@ -19,12 +19,12 @@ export const metadata: Metadata = {
 export default async function Page() {
 
   return (
-    <main>
-      <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+    <main >
+      <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl text-amber-50`}>
         Dashboard
       </h1>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 s">
         <Suspense fallback={<CardsSkeleton />}>
           <CardWrapper />
         </Suspense>

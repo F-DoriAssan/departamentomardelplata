@@ -11,11 +11,71 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/login/page.js"
     ],
+    "/[locale]/homepage/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/homepage/layout.js"
+    ],
+    "/[locale]/homepage/(overview)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/homepage/(overview)/page.js"
+    ],
+    "/[locale]/homepage/(overview)/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/homepage/(overview)/loading.js"
+    ],
+    "/[locale]/dashboard/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/layout.js"
+    ],
+    "/[locale]/dashboard/(overview)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/(overview)/page.js"
+    ],
+    "/[locale]/dashboard/(overview)/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/(overview)/loading.js"
+    ],
+    "/[locale]/dashboard/invoices/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/invoices/page.js"
+    ],
+    "/[locale]/dashboard/invoices/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/invoices/error.js"
+    ],
+    "/[locale]/dashboard/invoices/create/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/invoices/create/page.js"
+    ],
+    "/[locale]/dashboard/customers/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/customers/page.js"
+    ],
     "/[locale]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/page.css",
       "static/chunks/app/[locale]/page.js"
+    ],
+    "/[locale]/dashboard/invoices/[id]/edit/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/invoices/[id]/edit/page.js"
+    ],
+    "/[locale]/dashboard/invoices/[id]/edit/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/dashboard/invoices/[id]/edit/not-found.js"
     ]
   }
 }

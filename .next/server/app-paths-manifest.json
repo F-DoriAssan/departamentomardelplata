@@ -1,3 +1,8 @@
 {
-  "/[locale]/login/page": "app/[locale]/login/page.js"
+  "/[locale]/login/page": "app/[locale]/login/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/dashboard/(overview)/page": "app/[locale]/dashboard/(overview)/page.js",
+  "/[locale]/dashboard/invoices/page": "app/[locale]/dashboard/invoices/page.js",
+  "/[locale]/dashboard/customers/page": "app/[locale]/dashboard/customers/page.js",
+  "/[locale]/homepage/(overview)/page": "app/[locale]/homepage/(overview)/page.js"
 }
