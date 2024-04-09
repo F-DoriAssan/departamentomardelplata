@@ -1,8 +1,12 @@
-// File: /home/doriass/Público/next-course/nextjs-technology-pages/app/[locale]/homepage/layout.tsx
-import * as entry from '../../../../../app/[locale]/homepage/layout.js'
-import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
+import type {
+  ResolvingMetadata,
+  ResolvingViewport,
+} from 'next/dist/lib/metadata/types/metadata-interface.js';
 
-type TEntry = typeof import('../../../../../app/[locale]/homepage/layout.js')
+// File: /home/doriass/Público/next-course/nextjs-technology-pages/app/[locale]/homepage/layout.tsx
+import * as entry from '../../../../../app/[locale]/home/layout.jsx';
+
+type TEntry = typeof import('../../../../../app/[locale]/home/layout.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

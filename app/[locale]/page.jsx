@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { lusitana } from '@/app/[locale]/ui/fonts';
-import styles from '@/app/[locale]/ui/home.module.css';
 import TechnologyLogo from '@/app/[locale]/ui/technology-logo';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
@@ -36,12 +35,12 @@ export default async function Page({ params: { locale } }) {
           >
             <strong>{t('tits')}</strong> This is experience{' '}
             <a href="https://nextjs.org/learn/" className="text-amber-600">
-              Next.js websites
+              Next.js  Websites
             </a>
             , brought to you by Vercel & ©DoriAss.
           </p>
-          <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" />
-          <div className={styles.shape} />
+          {/* <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" />
+          <div className={styles.shape} /> */}
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-amber-600 px-6 py-3 text-sm font-medium text-gray-300 hover:text-white transition-colors hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 md:text-base focus-visible:outline-orange-600"

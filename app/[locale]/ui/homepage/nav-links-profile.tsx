@@ -41,7 +41,7 @@ export default function NavLinksProfile() {
             href={link.href}
             role="menuitem"
             className={clsx(
-              'text-gray-700" block px-4 py-2 text-sm',
+              'flex text-gray-300  px-4 py-2 text-sm',
 
               {
                 'block px-4 py-2 text-sm text-gray-700': pathname === link.href,
@@ -49,7 +49,7 @@ export default function NavLinksProfile() {
             )}
           >
             <LinkIcon className="w-6" />
-            <p className="hidden md:block">{link.name}</p>
+            <p className=" md:block">{link.name}</p>
           </Link>
         );
       })}

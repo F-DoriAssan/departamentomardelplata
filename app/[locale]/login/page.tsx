@@ -2,19 +2,12 @@ import { Metadata } from 'next';
 
 import LoginForm from '@/app/[locale]/ui/login-form';
 import TechnologyLogin from '@/app/[locale]/ui/technology-login';
-import {
-  findIconDefinition,
-  IconDefinition,
-  IconLookup,
-} from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const metadata: Metadata = {
   title: 'Login',
 };
 export default function LoginPage() {
-  const coffeeLookup: IconLookup = { prefix:'fas', iconName: 'coffee' }
-const coffeeIconDefinition: IconDefinition = findIconDefinition(coffeeLookup)
+
 
   return (
       <div >
@@ -22,8 +15,6 @@ const coffeeIconDefinition: IconDefinition = findIconDefinition(coffeeLookup)
       <div className="relative m-6 flex flex-col space-y-10 rounded-2xl bg-gray-900 shadow-2xl md:m-0 md:flex-row md:space-y-0">
         <div className="p-6 md:p-20">
         <TechnologyLogin />
-        <h1>        <FontAwesomeIcon icon={coffeeLookup} />
-</h1>
 
         <LoginForm />
 
