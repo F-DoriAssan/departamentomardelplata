@@ -1,17 +1,15 @@
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { lusitana } from '@/app/[locale]/ui/fonts';
 import TechnologyLogo from '@/app/[locale]/ui/technology-logo';
 import { config } from '@fortawesome/fontawesome-svg-core';
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
 
 import initTranslations from '../i18n';
+import DropdownLgj from './ui/flags/dropdown-lgj';
 
 config.autoAddCss = false
-
 export default async function Page({ params: { locale } }) {
   const { t, resources } = await initTranslations(locale, ['home']);
 
@@ -41,12 +39,14 @@ export default async function Page({ params: { locale } }) {
           </p>
           {/* <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" />
           <div className={styles.shape} /> */}
-          <Link
+
+                    <DropdownLgj />
+          {/* <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-amber-600 px-6 py-3 text-sm font-medium text-gray-300 hover:text-white transition-colors hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 md:text-base focus-visible:outline-orange-600"
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
-          </Link>
+          </Link> */}
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
