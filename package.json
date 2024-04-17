@@ -28,6 +28,7 @@
     "next": "^14.0.2",
     "next-auth": "^5.0.0-beta.16",
     "next-i18n-router": "^5.4.0",
+    "next-intl": "^3.11.1",
     "notenv": "^2.0.3",
     "postcss": "8.4.31",
     "react": "18.2.0",
