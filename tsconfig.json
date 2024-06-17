@@ -21,16 +21,16 @@
 
     "baseUrl": ".", 
     "paths": {
-  "@/app/*": ["app/*"]
+  "@/app/*": ["src/app/*"]
 }
   },
   "include": [
-    "next-env.d.ts",
+    ".env.local.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/lib/placeholder-data.js",
+    "src/app/[locale]/lib/placeholder-data.js",
     "scripts/seed.js"
-  ],
+, "src/app/[locale]/page.jsx", "src/app/[locale]/page.jsx", "i18nConfig.js"  ],
   "exclude": ["node_modules"]
 }

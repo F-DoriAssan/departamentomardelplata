@@ -9,6 +9,10 @@ import Image from 'next/image';
 
 import NavLinkLgj from '@/app/[locale]/ui/flags/nav-link-lgj';
 import { lusitana } from '@/app/[locale]/ui/fonts';
+<<<<<<< HEAD
+=======
+import TechnologyLogo from '@/app/[locale]/ui/technology-logo';
+>>>>>>> main
 
 // config.autoAddCss = false
 export default function Page() {
