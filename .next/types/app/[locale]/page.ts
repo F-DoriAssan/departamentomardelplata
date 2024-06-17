@@ -1,4 +1,4 @@
-// File: /home/doriass/Público/next-course/nextjs-technology-pages/src/app/[locale]/page.tsx
+// File: /home/doriass/Público/next-course/departamentomardelplata/src/app/[locale]/page.tsx
 import * as entry from '../../../../src/app/[locale]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

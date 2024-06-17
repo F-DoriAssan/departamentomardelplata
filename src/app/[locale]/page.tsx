@@ -9,7 +9,6 @@ import Image from 'next/image';
 
 import NavLinkLgj from '@/app/[locale]/ui/flags/nav-link-lgj';
 import { lusitana } from '@/app/[locale]/ui/fonts';
-import TechnologyLogo from '@/app/[locale]/ui/technology-logo';
 
 // config.autoAddCss = false
 export default function Page() {
@@ -32,33 +31,21 @@ export default function Page() {
 
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-900 px-6 py-10 md:w-2/5 md:px-20">
-        <Image
-        src="/favicon-500-o.png"
-        width={500}
-        height={500}
-        className="mx-auto h-10 w-auto"
-        alt="WebLogo"
-      />
+
           <p
             className={`${lusitana.className} text-xl text-gray-300 md:text-3xl md:leading-normal`}
           >
             {/* <strong>{t('tits')}</strong> {t('description-one')}{' '} */}
-            <a href="https://nextjs.org/learn/" className="text-amber-600">
+            <a href="departamentomardelplata.com" className="text-amber-600">
               {/* {t('description-two')} */}
             </a>
              {/* {t('description-three')} */}
           </p>
           {/* <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" />
           <div className={styles.shape} /> */}
- <label className="border-2 rounded">
-          <p className='sr-only'>Change Language</p>
-          {/* <select defaultValue={localActive} className='bg -transparent py-2' onChange={onSelectChange} disabled={isPending}> */}
-          <select>
-          <option value="ar">arabe</option>
-          <option value="en">englash</option>
-                    </select>
-        </label>
-        <NavLinkLgj />
+ <NavLinkLgj />
+
+
           {/* <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-amber-600 px-6 py-3 text-sm font-medium text-gray-300 hover:text-white transition-colors hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 md:text-base focus-visible:outline-orange-600"

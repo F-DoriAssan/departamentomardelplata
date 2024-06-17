@@ -1,80 +1,22 @@
 import Image from 'next/image';
 
-export function FlagAR() {
-  return (
- <div className=' lg:ml-8 lg:flex'>
-       <Image
-      src="/flags/ar.svg"
-      width={30}
-      height={30}
-      className=" md:block"
-      alt="FlagUS"
-    />
- 
- </div>
-  );
-}
-export function FlagIT() {
-  return (
- <div className=' lg:ml-8 lg:flex'>
-       <Image
-      src="/flags/it.svg"
-      width={30}
-      height={30}
-      className=" md:block"
-      alt="FlagUS"
-    />
-
- </div>
-  );
-}
-
-export function FlagFR() {
-  return (
- <div className=' lg:ml-8 lg:flex'>
-       <Image
-      src="/flags/ft.svg"
-      width={30}
-      height={30}
-      className=" md:block"
-      alt="FlagUS"
-    />
-
- </div>
-  );
-}
-
-
 export  function FlagES() {
   return (
- <div className=' hidden lg:ml-8 lg:flex'>
+ <div className='  lg:ml-8 lg:flex'>
        <Image
       src="/flags/es.svg"
       width={30}
       height={30}
-      className="hidden md:block"
+      className=" md:block"
       alt="FlagES"
     />
     <Image
     src="/flags/ar.svg"
     width={30}
     height={30}
-    className="hidden md:block"
+    className=" md:block"
     alt="FlagAR"
   />
- </div>
-  );
-}
-export function FlagNL() {
-  return (
- <div className=' lg:ml-8 lg:flex'>
-       <Image
-      src="/flags/nl.svg"
-      width={30}
-      height={30}
-      className=" md:block"
-      alt="FlagNL"
-    />
  </div>
   );
 }

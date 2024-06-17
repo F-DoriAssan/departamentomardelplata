@@ -4,7 +4,7 @@ export default function TechnologyLogin() {
   return (
     <div className="text-center sm:mx-auto sm:w-full sm:max-w-sm">
       <Image
-        src="./favicon-500-2.png"
+        src="/favicon-500-o.svg"
         width={500}
         height={500}
         className="mx-auto h-10 w-auto"
