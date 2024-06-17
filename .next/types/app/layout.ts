@@ -1,4 +1,4 @@
-// File: /home/doriass/Público/next-course/nextjs-esthetic/app/layout.tsx
+// File: /home/doriass/Público/next-course/nextjs-technology-pages/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
