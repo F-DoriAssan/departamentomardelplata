@@ -1,42 +1,34 @@
 "use client"
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
-import {
-  ChangeEvent,
-  useTransition,
-} from 'react';
-
-import {
-  useLocale,
-  useTranslations,
-} from 'next-intl';
+// import {
+//   useLocale,
+//   useTranslations,
+// } from 'next-intl';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
 
+import NavLinkLgj from '@/app/[locale]/ui/flags/nav-link-lgj';
 import { lusitana } from '@/app/[locale]/ui/fonts';
 import TechnologyLogo from '@/app/[locale]/ui/technology-logo';
-import { config } from '@fortawesome/fontawesome-svg-core';
 
-import NavLinkLgj from './ui/flags/nav-link-lgj';
-
-config.autoAddCss = false
+// config.autoAddCss = false
 export default function Page() {
-  const t = useTranslations('index');
+  // const t = useTranslations('Index');
 
-  const [isPending,startTransition] = useTransition()
-  const router = useRouter();
-  const localActive = useLocale();
-  const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
-const nextLocale =e.target.value;
-startTransition(() => {
-  router.replace(`/${nextLocale}`)
-})}
+//   const [isPending,startTransition] = useTransition()
+//   const router = useRouter();
+//   const localActive = useLocale();
+//   const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
+// const nextLocale =e.target.value;
+// startTransition(() => {
+//   router.replace(`/${nextLocale}`)
+// })}
 
   return (
     <main className="flex min-h-screen flex-col p-6 bg-slate-950">
-      <div className="flex h-20 shrink-0 items-end rounded-lg bg-gray-900 p-4 md:h-52">
+      {/* <div className="flex h-20 shrink-0 items-end rounded-lg bg-gray-900 p-4 md:h-52">
         <TechnologyLogo />
-      </div>
+      </div> */}
 
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-900 px-6 py-10 md:w-2/5 md:px-20">
@@ -60,7 +52,8 @@ startTransition(() => {
           <div className={styles.shape} /> */}
  <label className="border-2 rounded">
           <p className='sr-only'>Change Language</p>
-          <select defaultValue={localActive} className='bg -transparent py-2' onChange={onSelectChange} disabled={isPending}>
+          {/* <select defaultValue={localActive} className='bg -transparent py-2' onChange={onSelectChange} disabled={isPending}> */}
+          <select>
           <option value="ar">arabe</option>
           <option value="en">englash</option>
                     </select>

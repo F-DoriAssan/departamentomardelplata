@@ -7,7 +7,7 @@ export default function TechnologyLogo() {
     <div
       className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
     >
-      <p className="text-[44px] text-sky-100 hover:text-amber-500 shado focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 ">Web</p>
+      <p className="text-[44px] text-sky-100 hover:text-amber-500 shado focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 ">MdP</p>
       <WindowIcon className="h-12 w-12  text-sky-100" />
 
     </div>
