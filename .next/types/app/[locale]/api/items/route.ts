@@ -1,8 +1,10 @@
-// File: /home/doriass/Público/next-course/departamentomardelplata/src/app/[locale]/api/items/route.ts
-import * as entry from '../../../../../../src/app/[locale]/api/items/route.js'
-import type { NextRequest } from 'next/server.js'
+import type { NextRequest } from 'next/server.js';
 
-type TEntry = typeof import('../../../../../../src/app/[locale]/api/items/route.js')
+// File: /home/doriass/Público/next-course/departamentomardelplata/src/app/[locale]/api/items/route.ts
+import * as entry
+  from '../../../../../../src/app/[locale]/api/firebase/firebase.js';
+
+type TEntry = typeof import('../../../../../../src/app/[locale]/api/firebase/firebase.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

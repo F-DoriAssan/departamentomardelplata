@@ -1,8 +1,13 @@
-// File: /home/doriass/Público/next-course/departamentomardelplata/src/app/[locale]/items/category/create/page.tsx
-import * as entry from '../../../../../../../src/app/[locale]/items/category/create/page.js'
-import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
+import type {
+  ResolvingMetadata,
+  ResolvingViewport,
+} from 'next/dist/lib/metadata/types/metadata-interface.js';
 
-type TEntry = typeof import('../../../../../../../src/app/[locale]/items/category/create/page.js')
+// File: /home/doriass/Público/next-course/departamentomardelplata/src/app/[locale]/items/category/create/page.tsx
+import * as entry
+  from '../../../../../../../src/app/[locale]/departaments/category/create/page.jsx';
+
+type TEntry = typeof import('../../../../../../../src/app/[locale]/departaments/category/create/page.jsx')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
