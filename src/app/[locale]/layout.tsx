@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: 'Departamento Mar del Plata',
   },
   description: 'Alquilar departamento en Mar del Plata | Departamento Mar del Plata | departamentomardelplata.com',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  metadataBase: new URL('https:/departamentomardelplata.com'),
 };
 
 interface RootLayoutProps{
@@ -24,7 +24,7 @@ export default function RootLayout({
 }: Readonly<RootLayoutProps>){
   return (
     <html lang={locale}>
-      <body className={`${inter.className} antialiased`}>
+   <body className={`${inter.className} antialiased`}>
       
             
           {children}
