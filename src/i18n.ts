@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 
 // Can be imported from a shared config
 const defaultLocale = 'en'
-const langs = [ defaultLocale, 'ar', 'en','es' , 'pt','fr' , 'it' , 'nl' ] as const;
+const langs = [  'en','es' , 'pt'] as const;
 const locales = langs as unknown as string[];
 
 export default getRequestConfig(async ({locale}) => {

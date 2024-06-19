@@ -1,10 +1,6 @@
-"use client"
 import '@fortawesome/fontawesome-svg-core/styles.css';
 
-// import {
-//   useLocale,
-//   useTranslations,
-// } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 import NavLinkLgj from '@/app/[locale]/ui/flags/nav-link-lgj';
@@ -12,16 +8,9 @@ import { lusitana } from '@/app/[locale]/ui/fonts';
 
 // config.autoAddCss = false
 export default function Page() {
-  // const t = useTranslations('Index');
+   const t = useTranslations('Index');
 
-//   const [isPending,startTransition] = useTransition()
-//   const router = useRouter();
-//   const localActive = useLocale();
-//   const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
-// const nextLocale =e.target.value;
-// startTransition(() => {
-//   router.replace(`/${nextLocale}`)
-// })}
+
 
   return (
     <main className="flex min-h-screen flex-col p-6 bg-slate-950">
@@ -35,7 +24,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-300 md:text-3xl md:leading-normal`}
           >
-            {/* <strong>{t('tits')}</strong> {t('description-one')}{' '} */}
+           <strong>{t('tits')}</strong> {' '} 
             <a href="departamentomardelplata.com" className="text-amber-600">
               {/* {t('description-two')} */}
             </a>
